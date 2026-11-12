@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Grape & Gold inspired palette: cream paper, sage, warm charcoal, terracotta accent */
+@theme {
+  --color-cream: #efebe2;
+  --color-paper: #f8f6f1;
+  --color-sand: #e4dfd3;
+  --color-sage: #7b8069;
+  --color-sage-dark: #5d624f;
+  --color-sage-light: #dfe2d5;
+  --color-ink: #3a3933;
+  --color-muted: #8a877d;
+  --color-clay: #c4775c;
+  --font-display: var(--font-playfair), "Georgia", serif;
+  --font-script: var(--font-pinyon), "Brush Script MT", cursive;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
+
+.hero-sky {
+  background:
+    radial-gradient(120% 80% at 50% 110%, #6f7a5c 0%, #8d9673 30%, transparent 60%),
+    radial-gradient(90% 70% at 20% 20%, #f6d9c4 0%, transparent 60%),
+    linear-gradient(180deg, #c9cfdb 0%, #e9d3c4 45%, #d9b99c 75%, #8c9470 100%);
+}
